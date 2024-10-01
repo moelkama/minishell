@@ -33,9 +33,6 @@ The **Mini Shell** project is a custom shell, developed in C, that replicates ke
 - **C**: 
   - Core programming language used to implement the mini shell.
 
-- **POSIX APIs**: 
-  - Utilized for process management and system calls to facilitate command execution.
-
 ## Project Outcome
 The Mini Shell successfully emulates the core features of the Bash shell, providing a functional command-line interface. It demonstrates:
 - Command-line parsing techniques.
@@ -48,4 +45,6 @@ This project offers valuable insights into designing and implementing shell envi
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:moelkama/minishell.git
+   cd minishell
+   ./minishell
